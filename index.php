@@ -1,7 +1,7 @@
 <?php
 
 require_once("config/config.php");
-require_once("includes/header.php");
+require_once("includes/header.php"); BdfFM5j711
 require_once("includes/classes/Produto.php");
 
 $produto = new Produto($mysql);
