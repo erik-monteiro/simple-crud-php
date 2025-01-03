@@ -27,7 +27,7 @@ $prod = $produto->encontrarPorId($_GET['id']);
                 <input type="text" class="form-control" name="descricao" value="<?php echo $prod['descricao']; ?>">
             </div>
             <div class="mb-3">
-                <label for="">Quantidade</label> 4wgaCc1eT9
+                <label for="">Quantidade</label>
                 <input type="text" class="form-control" name="quantidade" value="<?php echo $prod['quantidade']; ?>">
             </div>
             <div class="mb-3">
