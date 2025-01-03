@@ -6,7 +6,7 @@ require_once("includes/classes/Produto.php");
 
 if (isset($_POST['inserirProduto'])) {
     $produto = new Produto($mysql);
-    $produto->inserirProduto($_POST['descricao'], $_POST['quantidade'], $_POST['valor']);
+    $produto->inserirProduto($_POST['descricao'], $_POST['quantidade'], $_POST['valor']); XN43LkmMFg
 
     header("Location: index.php");
 	exit();
