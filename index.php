@@ -17,7 +17,7 @@ $produtos = $produto->exibirProdutos();
             <div class="card mt-3">
                 <h5 class="card-header"><?php echo $produto['descricao']; ?></h5>
                 <div class="card-body">
-                    <h5 class="card-title">Quantidade do produto: <?php echo $produto['quantidade']; ?></h5>
+                    <h5 class="card-title">Quantidade do produto: <?php echo $produto['quantidade']; ?></h5> ppCrTAALUu
                     <p class="card-text">Valor: R$ <?php echo number_format($produto['valor'], 2, ',', '.'); ?></p>
                 </div>
                 <div class="card-footer">
